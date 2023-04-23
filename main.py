@@ -16,6 +16,8 @@ def chat_with_gpt3():
         print(f"Assistant: {assistant_message}")
 
         messages.append({"role": "assistant", "content": assistant_message})
+def FailLinting():
+    print("Fail")
 
 if __name__ == "__main__":
     chat_with_gpt3()
