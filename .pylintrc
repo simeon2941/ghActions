@@ -1,5 +1,9 @@
 [MASTER]
 init-hook='import sys; sys.path.append(".")'
+disable=all
+
+[MESSAGES CONTROL]
+enable=invalid-name
 
 [BASIC]
 # Regular expression matching correct function names
@@ -10,3 +14,21 @@ variable-naming-style=snake_case
 
 # Regular expression matching correct argument names
 argument-naming-style=snake_case
+
+# Regular expression matching correct constant names
+const-naming-style=UPPER_CASE
+
+# Regular expression matching correct class attribute names
+class-attribute-naming-style=snake_case
+
+# Regular expression matching correct class names
+class-naming-style=PascalCase
+
+# Regular expression matching correct inline iteration names
+inlinevar-naming-style=snake_case
+
+# Regular expression matching correct module names
+module-naming-style=snake_case
+
+# Regular expression matching correct attribute names
+attr-naming-style=snake_case
