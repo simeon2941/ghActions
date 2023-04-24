@@ -8,6 +8,7 @@ enable=invalid-name
 [BASIC]
 # Regular expression matching correct function names
 function-naming-style=snake_case
+min-length-variable-name=6
 
 # Regular expression matching correct variable names
 # Add a negative lookahead to avoid matching function, class, and module names
