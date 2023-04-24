@@ -15,7 +15,6 @@ def chat_with_gpt3():
         assistant_message = response.choices[0].message["content"]
         print(f"Assistant: {assistant_message}")
         messages.append({"role": "assistant", "content": assistant_message})
-        va = 'la'
 def fail_linting():
     print("Fail")
 
