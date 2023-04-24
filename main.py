@@ -16,6 +16,7 @@ def chat_with_gpt3():
         print(f"Assistant: {assistant_message}")
         messages.append({"role": "assistant", "content": assistant_message})
         va = 'la'
+        shorterVariable = "shorter"
 def fail_linting():
     print("Fail")
 
